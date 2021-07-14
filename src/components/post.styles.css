@@ -4,9 +4,10 @@
   min-height: 80px;
   margin-bottom: 1rem;
   text-align: left;
-  background: rgb(255, 255, 255);
+  background: var(--post-bg);
   border-radius: 1rem;
   transition: .2s ease-in;
+  color: var(--text-color);
 }
 
 .post-title {

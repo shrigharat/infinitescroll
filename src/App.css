@@ -1,14 +1,50 @@
+:root {
+  --main-bg: linear-gradient(45deg, #5095E4, #306FD3);
+  --post-bg: white;
+  --text-color: rgb(37, 37, 37);
+}
+
+[data-theme="dark"] {
+  --main-bg: #18191A;
+  --post-bg: #242526;
+  --text-color: #E4E6EB;
+}
+
 .App {
+  position: relative;
   margin:0;
   text-align: center;
   width: 96%;
-  padding: 2% 2%;
+  padding: 0 2% 2%;
   min-height: 100vh;
-  background: linear-gradient(45deg, #5095E4, #306FD3);
+  background: var(--main-bg);
   display: flex;
   flex-direction: column;
   align-items: center;
   
   -webkit-font-smoothing: none;
   font-family: 'Poppins', sans-serif;
+}
+
+.header{
+  margin: .5rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dm-toggle{
+  padding: .5rem .8rem;
+  background: var(--text-color);
+  outline: none;
+  border: none;
+  border-radius: .3rem;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--post-bg);
+}
+
+.end-reached{
+  font-weight: 500;
+  color: var(--text-color);
 }
