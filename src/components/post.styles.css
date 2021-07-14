@@ -1,0 +1,86 @@
+.post {
+  width: 40%;
+  padding: 1rem;
+  min-height: 80px;
+  margin-bottom: 1rem;
+  text-align: left;
+  background: rgb(255, 255, 255);
+  border-radius: 1rem;
+  transition: .2s ease-in;
+}
+
+.post-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.interactions {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 1.8rem;
+}
+
+.like,.love{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.3rem;
+  min-width: 1.6rem;
+  min-height: 1.6rem;
+  border-radius: 50%;
+  padding: .4rem;
+  transition: .2s ease-out;
+}
+
+.like.active {
+  animation: liked .2s ease-in forwards;
+  background: rgba(77, 145, 241, .3);
+}
+
+.love.active {
+  animation: loved .2s ease-in forwards;
+  background: rgba(243, 62, 88,.3);
+}
+
+@keyframes liked {
+  0% {
+    font-size: 1rem;
+  }
+  50% {
+    font-size: 1.5rem;
+    color: #4292FF;
+  }
+  100% {
+    font-size: 1.3rem;
+    color: #4292FF;
+  }
+}
+
+@keyframes loved {
+  0% {
+    font-size: 1rem;
+  }
+  50% {
+    font-size: 1.5rem;
+    color: #F33E58;
+  }
+
+  100% {
+    font-size: 1.3rem;
+    color: #F33E58;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .post{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .post{
+    width: 80%;
+  }
+}
+
