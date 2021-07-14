@@ -4,10 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 #Infinite scroll in React
 This app tries to implement basic pagination with the help of hooks and the API [link to API](https://jsonplaceholder.typicode.com/posts)
-[Desktop snapshot](https://drive.google.com/file/d/11IJRKHMBPP1nBixL8jwSzoBpN9xJsAAZ/view?usp=sharing)
-[Mobile Snapshot](https://drive.google.com/file/d/12M06gOaTJyczpT9VR0kcX_mg-gnnHtdY/view?usp=sharing)
-[Desktop dark mode](https://drive.google.com/file/d/1tGzty6PfxaK_Umq3QcfCGe6jGS-9eY6-/view?usp=sharing)
-[Mobile dark mode](https://drive.google.com/file/d/1_RnLDDikpUPNecVkK7h0CemS2yVeV-0I/view?usp=sharing)
+![Desktop snapshot](https://drive.google.com/file/d/11IJRKHMBPP1nBixL8jwSzoBpN9xJsAAZ/view?usp=sharing)
+![Mobile Snapshot](https://drive.google.com/file/d/12M06gOaTJyczpT9VR0kcX_mg-gnnHtdY/view?usp=sharing)
+![Desktop dark mode](https://drive.google.com/file/d/1tGzty6PfxaK_Umq3QcfCGe6jGS-9eY6-/view?usp=sharing)
+![Mobile dark mode](https://drive.google.com/file/d/1_RnLDDikpUPNecVkK7h0CemS2yVeV-0I/view?usp=sharing)
 
 ## Available Scripts
 
