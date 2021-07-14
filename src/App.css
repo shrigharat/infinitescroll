@@ -18,22 +18,18 @@
   padding: 0 2% 2%;
   min-height: 100vh;
   background: var(--main-bg);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  
   -webkit-font-smoothing: none;
   font-family: 'Poppins', sans-serif;
 }
 
 .header{
-  margin: .5rem;
   width: 100%;
   display: flex;
   justify-content: flex-end;
 }
 
 .dm-toggle{
+  margin: 0.5rem .5rem .5rem 0;
   padding: .5rem .8rem;
   background: var(--text-color);
   outline: none;

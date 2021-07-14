@@ -1,7 +1,7 @@
 import {useEffect,useState} from 'react';
 import axios from "axios";
 
-export default function useQuery(pageNo) {
+export default function useQuery(url, pageNo, itemsPerPage) {
   let [loading, setLoading] = useState(false);
   let [limitReached, setLimitReached] = useState(false);
   let [error, setError] = useState(false);
@@ -12,8 +12,8 @@ export default function useQuery(pageNo) {
       setLoading(true);
       axios({
           method: 'GET',
-          url: 'https://jsonplaceholder.typicode.com/posts',
-          params: { _page: pageNo, _limit: "10"}
+          url: url,
+          params: { _page: pageNo, _limit: itemsPerPage}
         })
         .then(result => {
           console.log({result});
